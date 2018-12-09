@@ -53,6 +53,4 @@ add_subdirectory(Lib)
 
 set(RAKNET_COMMON_LIBS RakNetLibStatic)
 
-if( RAKNET_GENERATE_SAMPLES )
-	add_subdirectory(Samples)
-endif()
+#add_subdirectory(Samples)
